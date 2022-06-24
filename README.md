@@ -13,3 +13,10 @@
 - Seperate window rendering and Nodejs to Clientjs for DOM and Browser runtime.
 - Set up your targets for Nodejs for frontend and backend.
 - renderToNodeStream : streaming chunks of mark-up.
+### Typescript
+- Add dependencies `npm i -D typescript@4.5.5` for type check then add a tsconfig with `npx tsc --init`
+- Select a target for your project plus jsx settings then add react types`npm i -D @types/react@17.0.39 @types/react-dom@17.0.11`
+- ESlint should add typescript configuration `npm install -D eslint-import-resolver-typescript@2.5.0 @typescript-eslint/eslint-plugin@5.13.0 @typescript-eslint/parser@5.13.0` then add `ts and tsx` to the linter.
+### Redux
+- Add dependencies `npm i redux@4.1.2 react-redux`
+- Dealing with state management i.e user types, call action, dispatch an action, insert action to root reducer, reducer delegates action, new state returned which becomes the store's state.
