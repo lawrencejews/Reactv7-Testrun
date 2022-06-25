@@ -20,3 +20,8 @@
 ### Redux
 - Add dependencies `npm i redux@4.1.2 react-redux`
 - Dealing with state management i.e user types, call action, dispatch an action, insert action to root reducer, reducer delegates action, new state returned which becomes the store's state.
+### Testing
+- Adding dependencies `npm i -D jest@27.5.1 @testing-library/react@12.1.3` to work with react.
+- Setting babel `npm i -D @babel/preset-env` for running tests in babelrc `@babel/preset-env` with a target of `node`
+- Testing component with react helper library `npm i -D @testing-library/react-hooks@7.0.2`.
+- Fetch testing `npm i -D jest-fetch-mock@3.0.3` then add `automock: false, setupFiles` to the package.json.
